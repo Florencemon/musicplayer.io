@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Vinyl Player</title>
+       <link rel="stylesheet" type="text/css" href="css/style.css" >
+</head>
+<body>
+  <div class="container">
+    <div class="player">
+      <div class="player__controls">
+ 
+      </div>
+      <div class="player__album">
+        <img src="./Media/IMG/505.jpeg" alt="Album Cover" class="player__img" loading="lazy" />
+      </div>
+  
+      <h2 class="player__artist">Arctic Monkeys</h2>
+      <h3 class="player__song">505</h3>
+  
+      <input type="range" value="0" min="0" max="100" class="player__level" id="range" />
+      <div class="audio-duration">
+        <div class="start">00:00</div>
+        <div class="end">04:56</div>
+      </div>
+  
+      <audio class="player__audio" controls id="audio">
+        <source src="./Media/505.mp3" type="audio/mpeg">
+      </audio>
+  
+      <div class="player__controls">
+        <div class="player__btn player__btn--medium" id="backward">
+          <i class="fas fa-backward"></i>
+        </div>
+  
+        <div class="player__btn player__btn--medium blue play" id="play">
+          <i class="fas fa-play play-btn"></i>
+          <i class="fas fa-pause pause-btn hide"></i>
+        </div>
+  
+        <div class="player__btn player__btn--medium" id="forward">
+          <i class="fas fa-forward"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+<script src="/Scripts/Scripts.js">
+ 
+</script>
+</html>
