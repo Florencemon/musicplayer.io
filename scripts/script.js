@@ -42,7 +42,7 @@ audio.addEventListener("timeupdate", () => {
       window.location.href = "01.html";
     });
     
-
+/*
 
     let currentPage = localStorage.getItem("currentPage") || "index";
 
@@ -105,4 +105,4 @@ audio.addEventListener("timeupdate", () => {
           return "index";
       }
     }
-    
+    */
