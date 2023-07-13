@@ -22,7 +22,7 @@ img {
 
 .container {
   background-color: var(--background);
-  background-image: url("../Media/IMG/backgroungplayer.jpg");
+  background-image: url("../media/img/backgroungplayer.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
